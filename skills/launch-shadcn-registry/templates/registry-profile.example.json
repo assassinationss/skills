@@ -19,6 +19,9 @@
   ],
   "installExample": "npx shadcn@latest add @ogimagecn/simple",
   "sampleComponents": ["simple"],
+  "mcpUrl": "https://ogimagecn.vercel.app/mcp",
+  "freeTier": "All components free with no account required; unlimited CLI installs.",
+  "pricingUrl": "https://ogimagecn.vercel.app#pricing",
   "features": [
     "The shadcn CLI copies components into your repository",
     "Customizable OG image templates",

@@ -89,6 +89,20 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Bullet points for shadcntemplates and social"
+    },
+    "mcpUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "MCP endpoint on the registry domain; required for awesome-ai-devtools"
+    },
+    "freeTier": {
+      "type": "string",
+      "description": "Free-tier sentence with concrete limits; required for free-for-dev"
+    },
+    "pricingUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Public pricing page URL; required for free-for-dev"
     }
   }
 }

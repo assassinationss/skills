@@ -4,7 +4,7 @@ description: >-
   Launch and promote a custom shadcn/ui registry. Validate registry.json, prepare or open
   directory pull requests, and draft posts for Reddit, X, Dev.to, and Hacker News. Use when
   the user wants to launch, list, submit, or announce a shadcn/ui registry, including requests
-  about awesome-shadcn-ui, registry.directory, or a new @scope registry.
+  about awesome-shadcn-ui, registry.directory, free-for-dev, awesome-ai-devtools (MCP), or a new @scope registry.
 compatibility: Needs network access, curl, gh, and git. The user must be logged in through gh before creating pull requests.
 ---
 
@@ -38,6 +38,9 @@ Required profile fields:
 | `registryIndexPath` | Optional registry index path relative to `registryBaseUrl`; defaults to `/registry.json` |
 | `sampleComponents` | Optional component slugs to validate during preflight, such as `["og-image"]` |
 | `features` | Optional points for shadcntemplates and social posts |
+| `mcpUrl` | Optional MCP endpoint on the registry domain, such as `https://example.com/mcp`; required for awesome-ai-devtools |
+| `freeTier` | Optional free-tier sentence with concrete limits; required for free-for-dev |
+| `pricingUrl` | Optional public pricing page URL; required for free-for-dev |
 
 ## Workflow
 
@@ -84,6 +87,8 @@ Generate the requested submission files from the registry profile. Read only the
 | shadcntemplates | [references/shadcntemplates.md](references/shadcntemplates.md) | `content/{author}-{name}.md` |
 | birobirobiro awesome | [references/awesome-birobirobiro.md](references/awesome-birobirobiro.md) | README table row |
 | bytefer awesome | [references/awesome-bytefer.md](references/awesome-bytefer.md) | README table row |
+| free-for-dev | [references/free-for-dev.md](references/free-for-dev.md) | README bullet, gated on a hosted SaaS free tier |
+| awesome-ai-devtools | [references/awesome-ai-devtools.md](references/awesome-ai-devtools.md) | README bullet, MCP server only with domain-derived `mcpUrl` |
 
 Present artifacts grouped by repo. Include:
 
@@ -133,6 +138,8 @@ Open pull requests in this order unless the user chooses otherwise:
 2. `rbadillap/registry.directory`
 3. `shadcnblocks/shadcntemplates`
 4. `birobirobiro/awesome-shadcn-ui` and `bytefer/awesome-shadcn-ui`, which can run in parallel
+5. `jamesmurdza/awesome-ai-devtools`, only when the registry ships a verified MCP server on its own domain
+6. `ripienaar/free-for-dev`, only when the registry domain offers a SaaS free tier; slowest review, submit last
 
 Track pull request URLs in the launch checklist. Do not describe the registry as published until it is live and at least one directory submission is open or merged.
 
@@ -167,6 +174,10 @@ Guardrails not already implied by the phases above:
 - Append the official `directory.json` entry to the end of the array.
 - Use one registry profile for every submission. Do not invent conflicting descriptions without user approval.
 - For premium registries on shadcntemplates, explain that the first listing is free and additional listings cost $100. Do not promise approval.
+- Skip `awesome-ai-devtools` when the registry has no MCP server, and skip
+  `free-for-dev` when it has no SaaS free tier. Say why instead of drafting.
+- Derive awesome-ai-devtools links from the registry domain (`profile.mcpUrl`,
+  default `{homepage}/mcp`) and verify the endpoint before drafting.
 
 ## Additional resources
 
