@@ -11,6 +11,19 @@ Agent skills for [Shadcn Labs](https://shadcnlabs.com). Install with the [skills
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/shadcn-labs/skills"><img src="https://img.shields.io/github/stars/shadcn-labs/skills?style=flat&amp;label=%E2%98%85&amp;color=08C" alt="GitHub Stars" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-08C?style=flat" alt="License: MIT" /></a>
+  <a href="https://discord.gg/N6G36KhYK4"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Join Shadcn Labs Discord" /></a>
+  <a href="https://x.com/shadcnlabs"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="Follow Shadcn Labs on X" /></a>
+  <a href="https://bsky.app/profile/shadcnlabs.bsky.social"><img src="https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=white" alt="Follow Shadcn Labs on Bluesky" /></a>
+  <a href="https://www.reddit.com/r/shadcnlabs/"><img src="https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white" alt="Join r/shadcnlabs on Reddit" /></a>
+</p>
+
+<p align="center">
+  <sub><a href="./README.zh-CN.md">中文</a></sub>
+</p>
+
 ## Install
 
 ```bash

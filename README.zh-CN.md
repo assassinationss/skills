@@ -1,5 +1,3 @@
-> English: [README.md](./README.md)
-
 <p align="center">
   <img src="./assets/gh.png" alt="Shadcn Labs Skills banner" />
 </p>
@@ -11,6 +9,19 @@
 面向 [Shadcn Labs](https://shadcnlabs.com) 的 Agent skills，可通过 [skills CLI](https://github.com/vercel-labs/skills) 安装。
 
 </div>
+
+<p align="center">
+  <a href="https://github.com/shadcn-labs/skills"><img src="https://img.shields.io/github/stars/shadcn-labs/skills?style=flat&amp;label=%E2%98%85&amp;color=08C" alt="GitHub Star 数" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-08C?style=flat" alt="许可证: MIT" /></a>
+  <a href="https://discord.gg/N6G36KhYK4"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="加入 Shadcn Labs Discord" /></a>
+  <a href="https://x.com/shadcnlabs"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="在 X 上关注 Shadcn Labs" /></a>
+  <a href="https://bsky.app/profile/shadcnlabs.bsky.social"><img src="https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=white" alt="在 Bluesky 上关注 Shadcn Labs" /></a>
+  <a href="https://www.reddit.com/r/shadcnlabs/"><img src="https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white" alt="加入 Reddit r/shadcnlabs" /></a>
+</p>
+
+<p align="center">
+  <sub><a href="./README.md">English</a></sub>
+</p>
 
 ## 安装
 
