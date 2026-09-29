@@ -5,12 +5,6 @@
 
 <h1 align="center">Skills</h1>
 
-<div align="center">
-
-Agent skills for [Shadcn Labs](https://shadcnlabs.com). Install with the [skills CLI](https://github.com/vercel-labs/skills).
-
-</div>
-
 <p align="center">
   <a href="https://github.com/shadcn-labs/skills"><img src="https://img.shields.io/github/stars/shadcn-labs/skills?style=flat&amp;label=%E2%98%85&amp;color=08C" alt="GitHub Stars" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-08C?style=flat" alt="License: MIT" /></a>
@@ -23,6 +17,12 @@ Agent skills for [Shadcn Labs](https://shadcnlabs.com). Install with the [skills
 <p align="center">
   <sub><a href="./README.zh-CN.md">中文</a></sub>
 </p>
+
+<div align="center">
+
+Agent skills for [Shadcn Labs](https://shadcnlabs.com). Install with the [skills CLI](https://github.com/vercel-labs/skills).
+
+</div>
 
 ## Install
 
