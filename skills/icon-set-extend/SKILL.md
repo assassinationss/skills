@@ -8,6 +8,8 @@ description: >-
 compatibility: Any project with a directory of existing .svg files. The bundled scripts need only standard-library python3.
 ---
 
+> 中文版: [SKILL.zh-CN.md](SKILL.zh-CN.md)
+
 # Extend an existing icon set
 
 The existing files are the specification. Recover their decisions, then make the selected
