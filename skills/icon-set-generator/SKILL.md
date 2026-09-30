@@ -7,6 +7,8 @@ description: >-
 compatibility: Any project. The bundled scripts need only standard-library python3.
 ---
 
+> 中文版: [SKILL.zh-CN.md](SKILL.zh-CN.md)
+
 # Generate a consistent icon set
 
 One icon can survive improvisation. A set cannot. Small changes in stroke, optical size, gaps,
