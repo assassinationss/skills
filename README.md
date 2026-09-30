@@ -1,4 +1,3 @@
-> 中文版: [README.zh-CN.md](./README.zh-CN.md)
 <p align="center">
   <img src="./assets/gh.png" alt="Shadcn Labs Skills banner" />
 </p>
