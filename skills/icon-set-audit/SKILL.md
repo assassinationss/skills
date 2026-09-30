@@ -8,6 +8,8 @@ description: >-
 compatibility: Any project with a directory of .svg files. The bundled script needs only standard-library python3.
 ---
 
+> 中文版: [SKILL.zh-CN.md](SKILL.zh-CN.md)
+
 # Audit an icon set
 
 An icon can look correct alone and still break the set. The useful defects are relational.
