@@ -8,6 +8,8 @@ description: >-
 compatibility: A Mastra project using @mastra/core 1.48.0 or later. File discovery requires mastra dev or mastra build.
 ---
 
+> 中文版: [SKILL.zh-CN.md](SKILL.zh-CN.md)
+
 # Migrate Mastra agents to file-based directories
 
 Convert agents built with `new Agent({...})` and registered in a
