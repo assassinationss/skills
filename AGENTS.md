@@ -36,4 +36,4 @@ Use an existing section as the template. `README.zh-CN.md` mirrors the same sect
 ## Validation
 
 - Any JSON a skill ships (`templates/`, `evals/` schemas) must parse — run it through a JSON parser before committing.
-- Every relative link in `SKILL.md`, mostly into `references/`, must resolve — re-check them after moving files.
+- Every relative link must resolve, whether it sits in `SKILL.md` or in a file under `references/`, and each link is resolved from the file that contains it — re-check them after moving files.
